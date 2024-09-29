@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#hero {
+height: ;
+
+}
+#hero .navbar {
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#hero .navbar nav ul {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+#hero .navbar nav ul li  {
+  list-style: none;
+}
+
+#hero .navbar nav ul li a {
+    text-decoration: none;
+    margin: 20px;
+}
+#hero .navbar nav ul li a:hover {
+    border-bottom: 3px solid green;
+    color: green;
+}
+#hero .navbar .search input {
+    height: 35px;
+    width: 250px;  
+    border-radius: 20px;
+    text-align: center;
+}
+#hero .navbar .search button {
+    height: 35px;
+    width: 70px;
+    border-radius: 20px;
+}
+#hero .navbar .icon {
+    border: 1px solid black;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    
+}
+/* #hero .navbar .icon a {
+    justify-content: center;
+    align-items: center;
+} */
+
+.navbar2 {
+    height: 80px;
+    background-color: darkgreen;
+    
+}
+.navbar2 .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    /* margin-top: 30px; */
+
+}
+.navbar2 .heading h1 {
+    margin-top: 25px;
+    color: aliceblue;
+    margin-left: 60px;
+}
+.navbar2 .heading button {
+    margin-top: 25px;
+    margin-right: 60px;
+    text-decoration: none;
+    background: none;
+    border-radius: 20px;
+    padding: 6px;
+    color: aliceblue;
+    border-color: aliceblue;
+
+}
+.box1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 60px;
+    background-color: darkgreen;
+    border-radius: 10px;
+    color: aliceblue;
+
+}
+.box1 .img1 img {
+    height: 200px;
+
+}
+.box1 .text1 h3 {
+    margin: 10px;
+}
+.box1 .btn button {
+    height: 50px;
+    width: 180px;
+    border-radius: 50px;
+    margin-top: 130px;
+    background-color: aliceblue;
+    
+}
+.item h1 {
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+.item2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 60px;
+}
+.item .img2 img {
+    height: 120px;
+    border-radius: 100%;
+
+}
+
